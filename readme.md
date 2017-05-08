@@ -1,4 +1,4 @@
-# This is my linux configuration for new users
+# This is my linux configuration and simple useful scripts for new users
 > well, I'm new to linux too.
 
 These configuration and scripts are running on ubuntu 16.04.
