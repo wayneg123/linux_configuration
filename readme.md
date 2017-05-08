@@ -22,9 +22,9 @@ cp zshrc ~/.zshrc
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/zsh_theme.sh)"`
     - When terminal echo `"Time to change your default shell to zsh!"` and `password:`, please enter [sudo] password for your user.
-> If you are using the desk version of Ubuntu, you will find zsh theme looks terrible. Please install powerline fonts by `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/powerline-fonts-install.sh)"`, you can checkout [https://github.com/powerline/fonts](https://github.com/powerline/fonts) for more details.
->
-> If you are using ssh softwares at windows, you can simple download fonts you like from powerline fonts repo above and double click to install. Choose fonts from you ssh software will be ok.
+    > If you are using the desk version of Ubuntu, you will find zsh theme looks terrible. Please install powerline fonts by `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/powerline-fonts-install.sh)"`, you can checkout [https://github.com/powerline/fonts](https://github.com/powerline/fonts) for more details.
+    >
+    > If you are using ssh softwares at windows, you can simple download fonts you like from powerline fonts repo above and double click to install. Choose fonts from you ssh software will be ok.
 
 4. vim-of-tao12345666333.sh for installing vim and tao12345666333's vim configuration. Checkout [tao12345666333/vim](https://github.com/tao12345666333/vim), if you want to use his vim configuration.
     - How to use:
@@ -35,6 +35,17 @@ cp zshrc ~/.zshrc
 5. ros_install.sh for installing ros-kinetic-desktop-full.
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/ros_install.sh)"`
+
+6. beauty.sh for make ubuntu beautier by installing unity-tweak-tool flatabulous-theme and ultra-flat-icons.
+    - How to use:
+    - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/beauty.sh)"`
+    - Press `win` type `unity` to open `unity-tweak-tool`. In themes choose `flatabulous-theme`, in icons choose `ultra-flat-icons`. Done!
+
+7. remove_useless_apps.sh for removing useless apps.
+    > Remove apps: thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-orca webbrowser-app gnome-sudoku  landscape-client-ui-install onboard deja-dup unity-webapps-common libreoffice-common
+
+    - How to use:
+    - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/remove_useless_apps.sh)"`
 
 ~~viminstall.sh is for Building-Vim-from-source. You can use it for Building-Vim-from-source.
     - How to use:
