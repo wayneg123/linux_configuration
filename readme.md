@@ -12,7 +12,7 @@ cp zshrc ~/.zshrc
 
 Before using scripts below you should **install curl fist** by `sudo apt-get install curl`.
 
-1. change_sources_list.sh for sources.list change to 163's sources.If you are not using VPS, you can use it.
+1. change_sources_list.sh for sources.list change to ustc's sources.
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/change_sources_list.sh)"`
 
