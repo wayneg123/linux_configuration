@@ -1,5 +1,4 @@
 #!/bin/bash
-# update
 sudo apt-get update
 sudo apt-get install screen git python-pip autojump zsh -y
 sudo pip install powerline-status
