@@ -21,7 +21,10 @@ cp zshrc ~/.zshrc
 3. zsh_theme.sh for agnoster-fcamblor theme to zsh.
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/zsh_theme.sh)"`
-> If you are using the desk version of Ubuntu, you will find zsh theme looks terrible. Please install powerline fonts by `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/powerline-fonts-install.sh)"`
+    - When terminal echo `"Time to change your default shell to zsh!"` and `password:`, please enter [sudo] password for your user.
+> If you are using the desk version of Ubuntu, you will find zsh theme looks terrible. Please install powerline fonts by `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/powerline-fonts-install.sh)"`, you can checkout [https://github.com/powerline/fonts](https://github.com/powerline/fonts) for more details.
+>
+> If you are using ssh softwares at windows, you can simple download fonts you like from powerline fonts repo above and double click to install. Choose fonts from you ssh software will be ok.
 
 4. vim-of-tao12345666333.sh for installing vim and tao12345666333's vim configuration. Checkout [tao12345666333/vim](https://github.com/tao12345666333/vim), if you want to use his vim configuration.
     - How to use:
