@@ -8,4 +8,3 @@ cd ~
 wget https://raw.githubusercontent.com/wayneg123/linux_configuration/master/zshrc
 cp zshrc ~/.zshrc
 bash
-zsh
