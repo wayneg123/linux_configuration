@@ -14,7 +14,7 @@ cp zshrc ~/.zshrc
   - How to use:
   - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/change_sources_list.sh)"`
 
-2. startup.sh for install oh-my-zsh.
+2. startup.sh for install common softwares: screen git python-pip autojump zsh and powerline-status.
   - How to use:
   - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/startup.sh)"`
 
