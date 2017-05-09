@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e
-pip install jedi
+sudo pip install jedi
 sudo apt-get remove --purge -y vim vim-runtime vim-gnome vim-tiny vim-common vim-gui-common
 sudo apt-get install -y liblua5.1-dev luajit libluajit-5.1 python-dev ruby-dev libperl-dev mercurial libncurses5-dev libgnome2-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev libcairo2-dev libx11-dev
 
