@@ -49,3 +49,8 @@ Before using scripts below you should **install curl fist** by `sudo apt-get ins
 
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/remove_useless_apps.sh)"`
+
+8. viminstall.sh for building vim from source, you can use it by building vim 8.0 with python2 support and other features(checkout [code](https://github.com/wayneg123/linux_configuration/blob/master/viminstall.sh) for details).
+    - How to use:
+    - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/viminstall.sh)"`
+    > After building vim, you can install [spacevim](https://github.com/SpaceVim/SpaceVim)
