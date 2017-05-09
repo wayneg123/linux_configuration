@@ -32,8 +32,6 @@ Before using scripts below you should **install curl fist** by `sudo apt-get ins
 4. vim-of-tao12345666333.sh for installing vim and tao12345666333's vim configuration. Checkout [tao12345666333/vim](https://github.com/tao12345666333/vim), if you want to use his vim configuration.
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/vim-of-tao12345666333.sh)"`
-    - How to use:
-    - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/vim-of-tao12345666333.sh)"`
 
 5. ros_install.sh for installing ros-kinetic-desktop-full.
     - How to use:
