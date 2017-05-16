@@ -52,3 +52,8 @@ Before using scripts below you should **install curl fist** by `sudo apt-get ins
     - How to use:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/viminstall.sh)"`
     > After building vim, you can install [spacevim](https://github.com/SpaceVim/SpaceVim)
+
+
+9. tmux_install.sh for building the latest tmux from source.
+    - How to use:
+    - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/tmux_install.sh)"`
