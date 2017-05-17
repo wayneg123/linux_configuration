@@ -10,7 +10,7 @@ sudo ln -s /usr/include/luajit-2.0 /usr/include/lua5.1/include
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 cd ~
-git clone http://dhclearn.ticp.io/wayne/vim.git
+git clone http://dhclearn.ticp.io/fork/vim.git
 cd ~/vim
 make distclean
 
