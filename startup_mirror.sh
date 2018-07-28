@@ -8,7 +8,8 @@ elif [ ! -d "/home/$USER/.config/pip" ]; then
   mkdir /home/$USER/.config/pip
 fi
 
-echo -e "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" >> /home/$USER/.config/pip/pip.conf
+echo "[global]" >> /home/$USER/.config/pip/pip.conf
+echo "index-url = https://pypi.tuna.tsinghua.edu.cn/simple" >> /home/$USER/.config/pip/pip.conf
 
 sudo pip install powerline-status
 sudo chsh -s /usr/bin/zsh
